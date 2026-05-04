@@ -1,99 +1,80 @@
-# < Rounak Banga />
+<h1 align="center">&lt; Rounak Banga /&gt;</h1>
 
-```txt
-ECE Student | Computer Architecture | Circuit Design
-Focus: CMOS → Systems
-```
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Architecture;CMOS+Design;RISC+CPU+in+Progress&center=true&width=420&height=40">
+</p>
 
----
-
-## [ SYSTEM STATUS ]
-
-```txt
-> Current Build:
-  - RISC CPU (Verilog)
-    ├── ALU ✔
-    ├── Program Counter ✔
-    └── Datapath ⏳
-
-> Analog Exploration:
-  - CMOS Logic Design (Cadence)
-  - Inverter Characteristics
-  - LTSpice Simulation
-
-> Direction:
-  - Analog + VLSI Design
-  - Practical, real-world electronics
-```
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=RounakBanga&layout=compact&theme=nightowl&hide_border=true"/>
+</p>
 
 ---
 
-## [ ENGINEERING MODULES ]
+```c
+/*
+  profile.config
 
-```txt
-[ARCHITECTURE]
-- RISC pipeline design
-- Datapath + control flow fundamentals
-- Patterson & Hennessy (in progress)
+  ECE Student | Computer Architecture | Circuit Design
+  focus: CMOS -> Systems
+*/
 
-[CIRCUITS]
-- CMOS AND / OR / XOR (transistor level)
-- DC + transient behavior analysis
-- Device-level intuition building
+build {
+  project: "RISC CPU (Verilog)";
 
-[EMBEDDED]
-- LPC1768 driver stack
-  (GPIO | ADC | SPI | UART | PWM | Displays)
+  modules: {
+    ALU: complete,
+    ProgramCounter: complete,
+    Datapath: in_progress
+  };
+
+  simulation: "Xilinx Vivado";
+}
+
+analog {
+  tools: ["Cadence Virtuoso", "LTSpice", "KiCad"];
+
+  work: [
+    "CMOS logic gates (AND / OR / XOR)",
+    "inverter characteristics",
+    "DC + transient analysis"
+  ];
+}
+
+embedded {
+  platform: "LPC1768";
+
+  drivers: [
+    "GPIO", "ADC", "UART",
+    "SPI", "PWM", "Displays"
+  ];
+}
+
+architecture {
+  study: "Patterson & Hennessy";
+  topics: [
+    "datapath design",
+    "control flow",
+    "RISC pipeline fundamentals"
+  ];
+}
+
+signals {
+  hackathon: "SIH";
+  rank: "14 / 641";
+}
+
+toolchain = [
+  "Verilog", "Vivado",
+  "Cadence Virtuoso", "LTSpice", "KiCad",
+  "C++", "Python", "MATLAB"
+];
+
+direction {
+  focus: ["Analog Design", "VLSI"];
+  goal: "build useful, real-world electronic systems";
+}
+
+contact {
+  email: "rounakbanga2006@gmail.com";
+}
 ```
-
----
-
-## [ TOOLCHAIN ]
-
-```txt
-HDL / Systems:
-  Verilog | Vivado
-
-Analog / Design:
-  Cadence Virtuoso | LTSpice | KiCad
-
-Programming:
-  C++ | Python | MATLAB
-```
-
----
-
-## [ PROJECT INDEX ]
-
-```txt
-01. RISC Pipeline CPU (Verilog)
-    → datapath + control + testbench validation
-
-02. CMOS Logic (Cadence)
-    → transistor-level design + simulation
-
-03. Embedded Driver Library
-    → modular HAL (ARM Cortex-M3)
-
-04. Signal / Numerical Work
-    → S→Z transforms (MATLAB)
-    → non-standard base systems (C++)
-```
-
----
-
-## [ SIGNALS ]
-
-```txt
-SIH Hackathon → Rank 14 / 641
-Coursework → Architecture | Analog | Signals | EM
-```
-
----
-
-## [ CONTACT ]
-
-```txt
-email: rounakbanga2006@gmail.com
-```
-
