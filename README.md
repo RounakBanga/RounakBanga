@@ -1,56 +1,58 @@
 <h1 align="center">&lt; Rounak Banga /&gt;</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Architecture;CMOS+Design;RISC+CPU+in+Progress&center=true&width=420&height=40">
+  <b>CMOS Design · Computer Architecture · Systems</b>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=RounakBanga&layout=compact&theme=nightowl&hide_border=true"/>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=RounakBanga&layout=compact&theme=nightowl&hide_border=true&bg_color=00000000"/>
 </p>
 
 ---
 
-```c
-/*
-  profile.config
-
-  ECE Student | Computer Architecture | Circuit Design
-  focus: CMOS -> Systems
-*/
+```c id="m4z1x9"
+/* =====================  profile.config  ===================== */
 
 build {
   project: "RISC CPU (Verilog)";
 
   modules: {
-    ALU: complete,
-    ProgramCounter: complete,
-    Datapath: in_progress
+    ALU:             complete,
+    ProgramCounter:  complete,
+    Datapath:        in_progress
   };
 
-  simulation: "Xilinx Vivado";
+  simulation: "Vivado";
 }
+
+/* ------------------------------------------------------------ */
 
 analog {
   tools: ["Cadence Virtuoso", "LTSpice", "KiCad"];
 
-  work: [
-    "CMOS logic gates (AND / OR / XOR)",
+  focus: [
+    "CMOS logic (AND / OR / XOR)",
     "inverter characteristics",
     "DC + transient analysis"
   ];
 }
 
+/* ------------------------------------------------------------ */
+
 embedded {
-  platform: "LPC1768";
+  target: "LPC1768";
 
   drivers: [
-    "GPIO", "ADC", "UART",
-    "SPI", "PWM", "Displays"
+    GPIO, ADC, UART,
+    SPI, PWM, Displays
   ];
 }
 
+/* ------------------------------------------------------------ */
+
 architecture {
-  study: "Patterson & Hennessy";
+  reference: "Patterson & Hennessy";
+
   topics: [
     "datapath design",
     "control flow",
@@ -58,23 +60,24 @@ architecture {
   ];
 }
 
+/* ------------------------------------------------------------ */
+
 signals {
-  hackathon: "SIH";
-  rank: "14 / 641";
+  SIH_rank: "14 / 641";
 }
 
+/* ------------------------------------------------------------ */
+
 toolchain = [
-  "Verilog", "Vivado",
-  "Cadence Virtuoso", "LTSpice", "KiCad",
-  "C++", "Python", "MATLAB"
+  Verilog, Vivado,
+  Cadence, LTSpice, KiCad,
+  C++, Python, MATLAB
 ];
 
 direction {
   focus: ["Analog Design", "VLSI"];
-  goal: "build useful, real-world electronic systems";
+  goal:  "useful, real-world electronics";
 }
 
-contact {
-  email: "rounakbanga2006@gmail.com";
-}
+/* ============================================================ */
 ```
