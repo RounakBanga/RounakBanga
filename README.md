@@ -4,13 +4,13 @@
 
 <p><b>CMOS Design · Computer Architecture · Systems</b></p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RounakBanga&layout=compact&theme=nightowl&hide_border=true&bg_color=00000000"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RounakBanga&layout=compact&theme=nightowl&hide_border=true"/>
 
 </div>
 
 ---
 
-```c
+```
 /* =====================  profile.config  ===================== */
 build {
   project: "RISC CPU (Verilog)";
